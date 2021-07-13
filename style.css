@@ -1,0 +1,80 @@
+body{
+	overflow: hidden;
+}
+
+.block1{
+	height: 40px;
+	width: 500px;
+	border-radius: 45px;
+	animation-name:  my-first-animation;
+	animation-duration: 8s; /*время*/
+	animation-iteration-count: infinite; /*бесконечно infinite*/ /*сколько раз работать*/
+	animation-fill-mode: none;
+}
+
+
+
+
+.conteiner{
+	height: 40px;
+	width: 500px;
+	border:1px  solid #3cc8e3;
+	border-radius: 45px;
+}
+
+@keyframes my-first-animation {
+	0%{
+		background: #3cc8e3;
+		width: 0;
+		
+	}
+	10%{
+		background: #3cc8e3;
+		width: 50;
+		
+	}
+	20%{
+		background: #3cc8e3;
+		width: 100;
+		
+	}
+	30%{
+		background: #3cc8e3;
+		width: 150;
+		
+	}
+	40%{
+		background: #3cc8e3;
+		width: 200;
+		
+	}
+	50%{
+		background: #3cc8e3;
+		width: 250;
+	}
+
+	60%{
+		background: #3cc8e3;
+		width: 300;	
+	}
+	70%{
+		background: #3cc8e3;
+		width: 350;
+		
+	}
+	80%{
+		background: #3cc8e3;
+		width: 400;
+		
+	}
+	90%{
+		background: #3cc8e3;
+		width: 450;
+		
+	}
+	100%{
+		background: #11eebc;
+		width: 500;
+		
+	}
+}
